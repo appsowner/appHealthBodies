@@ -8,5 +8,8 @@ export default (config: UserConfig) => {
         '@': '/src',
       },
     },
+    server: {
+      allowedHosts: ['app.healthybodies.fit'], // <-- agrega tu dominio aquí
+    },
   });
 };
